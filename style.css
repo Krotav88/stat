@@ -1,0 +1,59 @@
+*{
+	padding:0;
+	margin:0;
+}
+.wrap{
+	width:680px;
+	margin:0 auto;
+	
+}
+.statline{
+	max-width:400px;
+}
+.T1,.T2,.T1Btn,.T2Btn,.sgraf1,.sgraf2{
+	width:85px;
+	display:inline-block;
+}
+.T1Btn button,.T2Btn button{
+	width: 100%;
+}
+.sgraf1,.sgraf2{
+	text-align: center;
+	position: relative;
+}
+.sgraf1.pipka:after{
+	content: "";
+	position: absolute;
+	right: -1px;
+	top:0;
+	width:2px;
+	height: 20px;
+	background: #696969;
+}
+.sgraf1.pipka:before{
+	content: "";
+	position: absolute;
+	right: -1px;
+	top:40%;
+	width:10px;
+	height: 2px;
+	background: #696969;
+}
+.sgraf2.pipka:after{
+	content: "";
+	position: absolute;
+	left: -1px;
+	top:0;
+	width:2px;
+	height: 20px;
+	background: #696969;
+}
+.sgraf2.pipka:before{
+	content: "";
+	position: absolute;
+	left: -1px;
+	top:40%;
+	width:10px;
+	height: 2px;
+	background: #696969;
+}
